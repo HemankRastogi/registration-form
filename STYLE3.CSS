@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+body{
+    font-family:'Times New Roman', Times, serif ;
+    margin:15px 30px;
+    padding:10px;
+    
+}
+.container{background-color:rgb(190, 233, 141);
+    padding:5px 20px 15px 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+
+}
+.main_heading{padding: 18px;
+border: 10px;
+margin:20px;
+border-radius: 50%;
+background-color: rgb(248, 219, 205);
+color: black;
+border: 2px double grey;}
+p{font-weight: bold;}
+
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,input[type="text"],
+textarea{
+    width: 100%;
+    padding: 12px;
+    border:1px #ccc;
+    border-radius: 5px;
+    margin:5px;
+}
+
+input[type="submit"]{
+    background-color:rgb(207, 157, 138);
+    color: white;
+    padding: 12px 20px;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+    width: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:520px;
+   
+}
+input[type="submit"]:hover{
+    background-color: rgb(224, 141, 64);
+    border: 2px solid grey;
+}
+.main_heading:hover{
+    color:rgb(88, 62, 62) ;
+}
+input[type="email"]:hover,
+input[type="number"]:hover,
+input[type="password"]:hover,
+input[type="date"]:hover,
+select:hover,input[type="text"]:hover,
+textarea:hover,fieldset:hover{
+    background-color: rgb(253, 223, 223);
+}
+
+
+
+
